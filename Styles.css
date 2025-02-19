@@ -1,0 +1,50 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    div.container{
+      border: 5px solid #7a21ff;
+    }
+    header{
+      background-color: burlywood 
+    }
+    .hero img{
+      width: 100%;
+    }
+    div.left, div.middle, div.right{
+      border: 3px dotted green;
+      width: 33.3%;
+      margin-right: 3%;
+    }
+    
+    aside img{
+      width: 100%;
+    }
+
+    aside{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav{
+background-color: dimgray;
+    }
+
+    ul{
+text-align: center;
+    }
+    li{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid white;
+    line-height: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    }
+    a{
+color: aliceblue;
+text-decoration: none;
+border: 1px solid red;
+display: block;
+    }
